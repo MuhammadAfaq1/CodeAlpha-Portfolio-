@@ -1,0 +1,88 @@
+#project-description{
+margin-left: 18rem;
+}
+    @media (max-width: 1024px) {
+        #left{
+            margin-left: 8rem/* 16px */;
+        }
+        #education{
+            padding-top: 57px;
+        }
+       #overall{  
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+    }
+    #project{
+        margin-left: inherit;
+    }
+    #project-description{
+        margin-left: 200px;
+    }
+    }
+    @media (max-width: 768px) {
+        #left{
+            margin-left: 4rem/* 16px */;
+        }
+        #aboutMe{
+            font-size: small;
+        }
+        #right{
+            padding-left: 310px;
+        }
+        #overall{  
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+            gap: 10px; 
+        }
+        #skills,#experience{
+            margin-left: inherit;
+        }
+        #project-description{
+            margin-left: 100px;
+        }
+        #name{
+            margin-left: 300px;
+        }
+        #education{
+            font-size:small;
+        }
+        
+    }
+    @media (max-width: 672px) {
+        #left{
+            margin-left: 2rem/* 16px */;
+        }
+        #right{
+            padding-left: 280px;
+        }
+        #name{
+            
+            margin-left: 280px;
+        }
+        #project-description{
+            margin-left: 50px;
+            font-size: medium;
+        }
+        #education{
+            font-size:x-small;
+        }
+    }
+    @media (max-width: 570px) {
+        #name{
+           font-size:x-large;
+        }
+        #education{
+            font-size:xx-small;
+        }
+    }
+
+    @media (max-width: 512px) {
+
+        #education{
+            margin-top: 20px;
+        }
+        #project-description{
+            font-size: small;
+        }
+    }
